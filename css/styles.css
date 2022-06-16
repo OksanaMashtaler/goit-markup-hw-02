@@ -146,3 +146,36 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+
+/* -----------footer------------------ */
+.footer {
+  background-color: var(--color-background-secondary);
+}
+
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.text-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--brand-color);
+}
