@@ -116,7 +116,6 @@ body {
 }
 
 .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -140,7 +139,6 @@ body {
 }
 
 .desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -153,6 +151,7 @@ body {
 }
 
 .logo-footer {
+  font: var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -160,7 +159,6 @@ body {
   color: var(--accent-color);
 }
 .text-footer {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -168,7 +166,6 @@ body {
 }
 
 .footer-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
