@@ -33,6 +33,14 @@ body {
   cursor: pointer;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
 /* -----------header------------------ */
 
 .header {
@@ -99,15 +107,9 @@ body {
   background-color: var(--brand-color);
 }
 
-/* -----------sections------------------ */
-.section {
-  background-color: var(--color-background-primary);
-}
+/* -----------sections preference------------------ */
 
-.section-title {
-  display: none;
-}
-.title {
+.preference-item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -115,14 +117,16 @@ body {
   color: var(--secondary-color);
 }
 
-.text {
+.preference-item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
-.subject {
+/* -----------sections work------------------ */
+
+.work-item-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -130,7 +134,9 @@ body {
   color: var(--secondary-color);
 }
 
-.subtitle {
+/* -----------sections team------------------ */
+
+.team-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -138,7 +144,7 @@ body {
   color: var(--secondary-color);
 }
 
-.desc {
+.team-item-text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -151,13 +157,18 @@ body {
 }
 
 .logo-footer {
-  font: var(--font-family-logo);
+  font-family: var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
+.address {
+  font-style: normal;
+}
+
 .text-footer {
   font-size: 14px;
   line-height: 1.71;
