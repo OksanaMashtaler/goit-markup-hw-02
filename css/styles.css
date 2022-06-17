@@ -189,3 +189,37 @@ body {
 }
 
 /* -----------portfolio------------------ */
+/* -----filter section------- */
+
+.filter-button {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  background-color: var(--color-backgroubd-team);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--accent-color);
+  background-color: var(--brand-color);
+}
+
+/* -----project section------- */
+
+.project-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+}
+
+.project-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
